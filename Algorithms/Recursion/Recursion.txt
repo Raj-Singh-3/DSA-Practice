@@ -1,0 +1,11 @@
+Recursion is the programming equivalent of mathematical induction. Mathematical induction is a way of defining something in terms of itself.
+A Function that calls itself.
+Recursion is usually used because it simplifies a problem conceptually, not because it’s inherently more efficient
+
+write the trecurrence relation if needed and always made recursive tree.
+
+Characteristics of Recursive Methods
+ • It calls itself.
+ • When it calls itself, it does so to solve a smaller problem.
+ • There’s some version of the problem that is simple enough that the routine can
+   solve it, and return, without calling itself
