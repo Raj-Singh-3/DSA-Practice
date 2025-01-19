@@ -28,3 +28,5 @@ public class Fibonacii {
         return fibonaci(n-1) + fibonaci(n-2);
     }
 }
+
+//The time Complexity will be 2^n.
