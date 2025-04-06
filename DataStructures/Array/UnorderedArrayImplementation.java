@@ -62,20 +62,32 @@ class UArray{
     //to delete an element at a specific position from a array
     public void delete(int idx)
     {
-        int flag = 0;
-        for(int i = 0;i<size;i++)
+
+        // <================================= old code ================================>
+        // int flag = 0;
+        // for(int i = 0;i<size;i++)
+        // {
+        //     if(i == idx)
+        //     {
+        //         arr[i] = arr[i+1];
+        //         flag = 1;
+        //         // so that the next element i+1 will be situated at position i,
+        //         // so position i will automatically delete.
+        //     }
+        //     if((flag == 1) && (i!=idx))
+        //     {
+        //         // so the new index which replaces idx element will also not be deleted,
+        //         // that's why we check for i!=idx;
+        //         arr[i] = arr[i+1];
+        //     }
+        // }
+
+        // <========================= new Code ================================>
+
+        if(idx>=0 && idx<=size-1)
         {
-            if(i == idx)
+            for(int i = idx;i<size;i++)
             {
-                arr[i] = arr[i+1];
-                flag = 1;
-                // so that the next element i+1 will be situated at position i,
-                // so position i will automatically delete.
-            }
-            if((flag == 1) && (i!=idx))
-            {
-                // so the new index which replaces idx element will also not be deleted,
-                // that's why we check for i!=idx;
                 arr[i] = arr[i+1];
             }
         }
@@ -91,15 +103,17 @@ public class UnorderedArrayImplementation {
         arr.add(0);
         arr.add(52);
         arr.print();
-        int k =arr.search(52);
-        System.out.println(k);
-        arr.insert(2,6);
+        arr.delete(2);
         arr.print();
-        System.out.println(arr.getSize());
-        arr.delete(5);
-        arr.print();
-        arr.add(6);
-        arr.print();
+        // int k =arr.search(52);
+        // System.out.println(k);
+        // arr.insert(2,6);
+        // arr.print();
+        // System.out.println(arr.getSize());
+        // arr.delete(5);
+        // arr.print();
+        // arr.add(6);
+        // arr.print();
         
     }
 }

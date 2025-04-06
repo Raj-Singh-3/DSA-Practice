@@ -19,6 +19,10 @@ public class TreeDS {
     public ArrayList<Integer> BFS(Node<Integer> root)
     {
         ArrayList<Integer> arr = new ArrayList<>();
+        if(root == null)
+        {
+            return arr;
+        }
         Queue<Node> q = new LinkedList<>();
         q.offer(root);
         while(!q.isEmpty())
