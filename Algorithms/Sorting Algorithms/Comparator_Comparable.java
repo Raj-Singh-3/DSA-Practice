@@ -2,6 +2,12 @@
 // Comparable is used for natural ordering mens for only one sorting logic
 // Both are used to sort objects in Java
 //both are interfaces in Java
+
+
+
+
+//For more details of comparator just visit this url: 
+// https://chatgpt.com/share/6848eaa0-58d8-8013-85e0-f81403a9a170
 import java.util.*;
 
 public class Comparator_Comparable {

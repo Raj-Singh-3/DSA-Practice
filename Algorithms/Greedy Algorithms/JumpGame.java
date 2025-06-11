@@ -7,21 +7,37 @@ public class JumpGame {
     public static void main(String[] args) {
         
     }
+    // public boolean canJump(int[] nums) {
+    //     int i = 0;
+    //     int maxIndex = 0;
+    //     int n = nums.length;
+    //     while(i<n)
+    //     {
+    //         if(i>maxIndex)
+    //         {
+    //             return false;
+    //         }
+    //         maxIndex = Math.max(maxIndex,i+nums[i]);
+    //         i++;
+    //     }
+    //     return true;
+
+    // }
+    
+
     public boolean canJump(int[] nums) {
-        int i = 0;
-        int maxIndex = 0;
         int n = nums.length;
-        while(i<n)
+        int max = 0;
+        for(int i = 0;i<n;i++)
         {
-            if(i>maxIndex)
+            if(i>nums[i])
             {
                 return false;
             }
-            maxIndex = Math.max(maxIndex,i+nums[i]);
-            i++;
+            int k = i + nums[i];
+            max = Math.max(k,max);
         }
         return true;
-
     }
-    
+
 }

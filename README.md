@@ -33,7 +33,7 @@ Each folder contains:
 
 - [LeetCode](https://leetcode.com/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
-- [CodeStudio](https://www.codingninjas.com/codestudio)
+- [CodeStudio](https://www.naukri.com/code360/home)
 - [CodeChef](https://www.codechef.com)
 - Competitive contests and mock interviews
 
