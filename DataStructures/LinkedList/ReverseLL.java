@@ -1,5 +1,5 @@
 public class ReverseLL {
-    public void reverse(Node head)
+    public Node reverse(Node head)
     {
         if(head == null|| head.next == null) return head; 
         Node prev = null;
