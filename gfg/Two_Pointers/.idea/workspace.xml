@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5e6e34b-70d0-45a9-a83f-e0da138fb7f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../DataStructures/Stacks/BalancedBrackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructures/Stacks/Initials/Info.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructures/Stacks/Stacks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../DataStructures/Stacks/out/production/Stacks/Stacks.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CheckForSubsequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MoveZeroesToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Sort_0s1s2s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Algorithms/Recursion2/patterns.tldr" beforeDir="false" afterPath="$PROJECT_DIR$/../../Algorithms/Recursion2/patterns.tldr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/KadanesAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestSubstringWithDistinctCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LongestSubstring_with_Atleast_K_RepeatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MaxSumSubarraySizeK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +20,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
@@ -40,23 +33,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/Desktop/DSA/DSA-Practice/gfg/Two_Pointers&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/HP/Desktop/DSA/DSA-Practice/gfg/Two_Pointers/Palindrome.java/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "full.screen.before.presentation.mode": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/HP/Desktop/DSA/DSA-Practice/gfg/Two_Pointers",
+    "onboarding.tips.debug.path": "C:/Users/HP/Desktop/DSA/DSA-Practice/gfg/Two_Pointers/Palindrome.java/src/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;JAVA&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "JAVA"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="javac TwoSum.java" />
